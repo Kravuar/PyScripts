@@ -70,14 +70,6 @@ def main(files):
             print(infoSecondary.format('*' + files[file].name + '*'))
             print_styled(line, difs)
 
-    # nFirst = file_len(first)
-    # nSecond = file_len(second)
-
-    # if (nFirst > nSecond):
-    #     print(difference.format("First file is {} lines bigger than second.".format(nFirst - nSecond)))
-    # elif (nSecond > nFirst):
-    #     print(difference.format("Second file is {} lines bigger than first.".format(nSecond - nFirst)))
-
 
 if __name__ == "__main__":
     parser = ArgumentParser(description='Script which finds differencies between text files.')
