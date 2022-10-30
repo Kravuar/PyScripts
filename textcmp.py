@@ -21,13 +21,6 @@ err_invalid_arg_amount = error.format("Expected exactly 2 arguments: 2 files to 
 err_invalid_file = error.format("Invalid file: {}\n")
 
 
-def file_len(filename):
-    with open(filename) as f:
-        for i, _ in enumerate(f):
-            pass
-    return i + 1
-
-
 def file_valid(parser, file):
     try:
         return open(file)
