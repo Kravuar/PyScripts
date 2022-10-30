@@ -17,7 +17,6 @@ match = Fore.GREEN + Style.NORMAL + '{}' + Style.RESET_ALL
 error = Fore.RED + Style.BRIGHT + '{}' + Style.RESET_ALL
 
 
-err_invalid_arg_amount = error.format("Expected exactly 2 arguments: 2 files to compare.\n")
 err_invalid_file = error.format("Invalid file: {}\n")
 
 
